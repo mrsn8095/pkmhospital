@@ -3,9 +3,13 @@ import Doctors from './pages/Doctors';
 import Navbar from './components/Navbar';
 import Appointment from './pages/Appoinment';
 import Home from './pages/Home';
+import Admin from './pages/AdminLogin'
 import logo from './logo.svg';
 import './App.css';
-
+import AdminAddDoctor from './pages/AdminAddDoctor';
+import AdminDashboard from './pages/AdminDashboard';
+import DoctorsList from './pages/DoctorsList';
+import ProtectedRoute from './components/ProtectedRoute';
 function App() {
   return (
   <Router>
@@ -18,6 +22,17 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/appoinment" element={<Appointment />} />
+        <Route path="/admin/add-doctor" element={
+          
+          <AdminAddDoctor />} />
+        <Route path="/doctors" element={<DoctorsList />} />
+        <Route path="/admin/login" element={<Admin />} />
+        <Route path="/admin/dashboard" element={
+                  <Admin />
+          
+} />
+        
+
 
       </Routes>
     </div>

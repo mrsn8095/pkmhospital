@@ -4,10 +4,20 @@ import DoctorCarousel from "../components/DoctorCarousel";
 import DepartmentCarousel from "../components/DepartmentCarousel";
 import Testimonials from "../components/Testimonials";
 import ContactUs from "../components/ContactUs";
+import AboutUs from "../components/AboutUs";
+import { useEffect, useState } from "react";
+import API from "../api";
 
 
 
 function Home() {
+  const [doctors, setDoctors] = useState([]);
+  useEffect(() => {
+    API.get("/doctors")
+    .then(res => setDoctors(res.data))
+    .catch(err => console.log(err));
+  },[]);  
+
   return (
     <>
       {/* ✅ NO .container HERE */}
@@ -75,12 +85,7 @@ function Home() {
 
       {/* About */}
        <div className="container my-5 text-center">
-        <h5 className="text-danger mb-3">About Us</h5>
-        <h3 className="text-primary">PKM Hospital Pandikkad</h3>
-        <p className="lead">
-          is dedicated to providing high-quality and compassionate medical care to the community. With a team of experienced doctors, modern facilities, and patient-focused services, we strive to ensure the best possible treatment for every individual.
-Our departments cover a wide range of specialties — from general medicine and pediatrics to surgery, gynecology, and emergency care. At PKM Hospital, we combine advanced medical technology with a personal touch, making healthcare accessible, affordable, and reliable for everyone in and around Pandikkad.
-        </p>
+        <AboutUs />
       </div>
            {/* Contact Us */}
             <div className="container my-5 text-center">
@@ -88,46 +93,11 @@ Our departments cover a wide range of specialties — from general medicine and 
           <ContactUs />
           </div>
 
-
-      {/* 🩺 Services Section */}
-      <div className="container my-5">
-        <h2 className="text-center text-primary mb-4">Our Key Services</h2>
-        <div className="row text-center">
-          <div className="col-md-4 mb-4">
-            <div className="card h-100 shadow">
-              <div className="card-body">
-                <h5 className="card-title text-primary">General Medicine</h5>
-                <p className="card-text">
-                  Comprehensive health checkups and treatment for all ages.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4 mb-4">
-            <div className="card h-100 shadow">
-              <div className="card-body">
-                <h5 className="card-title text-primary">Pediatrics</h5>
-                <p className="card-text">
-                  Compassionate care for your child’s growth, development, and health.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4 mb-4">
-            <div className="card h-100 shadow">
-              <div className="card-body">
-                <h5 className="card-title text-primary">Surgery</h5>
-                <p className="card-text">
-                  Expert surgical team with modern technology and safe procedures.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+     <div className="container my-5 text-center">
+ <a href="Admin" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Admin</a>
+     </div>
+     
+      </>
 
   );
 }
