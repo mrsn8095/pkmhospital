@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/pkmhospital/static/css/main.ec060a61.css",
+    "main.js": "/pkmhospital/static/js/main.c3ac1191.js",
+    "static/js/453.8701dc61.chunk.js": "/pkmhospital/static/js/453.8701dc61.chunk.js",
+    "static/media/bg_doctor.jpg": "/pkmhospital/static/media/bg_doctor.8ea0ac3a1f09a4c77c25.jpg",
+    "static/media/niyask.png": "/pkmhospital/static/media/niyask.72a4a99f847b1ea3560b.png",
+    "static/media/mustafaImg.png": "/pkmhospital/static/media/mustafaImg.eb3308cc6afc766f9590.png",
+    "static/media/ilsha.png": "/pkmhospital/static/media/ilsha.af1deacc14c47eb8b2b4.png",
+    "static/media/dramjadfarook.png": "/pkmhospital/static/media/dramjadfarook.5af580e654a910ae0642.png",
+    "static/media/drsiyadka.png": "/pkmhospital/static/media/drsiyadka.7b7ecbd012df2f48cb66.png",
+    "static/media/drshivaprasad.png": "/pkmhospital/static/media/drshivaprasad.54f18fce51091e39978c.png",
+    "static/media/gm.png": "/pkmhospital/static/media/gm.04d6990b12cf4fcdb0d4.png",
+    "static/media/drridapadiyath.png": "/pkmhospital/static/media/drridapadiyath.93692020bc4f2a8bbe4b.png",
+    "static/media/medicine.png": "/pkmhospital/static/media/medicine.94e11a04a58a235b6b67.png",
+    "static/media/drpriyadarshini.png": "/pkmhospital/static/media/drpriyadarshini.4c4c4a9600ae8d7597f9.png",
+    "static/media/ent.png": "/pkmhospital/static/media/ent.61b26a59f1252cf308c1.png",
+    "static/media/surgery.png": "/pkmhospital/static/media/surgery.1e3c54e52c73ee5fdb0b.png",
+    "static/media/radiology.png": "/pkmhospital/static/media/radiology.60c5a15d9739f61e9d16.png",
+    "static/media/neonatology.png": "/pkmhospital/static/media/neonatology.97086fc8bbe268cf37b5.png",
+    "static/media/gyneco.png": "/pkmhospital/static/media/gyneco.7860353c7f14f723b481.png",
+    "static/media/pedo.png": "/pkmhospital/static/media/pedo.91be7b445d2ed62a490a.png",
+    "static/media/dermato.png": "/pkmhospital/static/media/dermato.a525a174d9dbe595599d.png",
+    "static/media/PKM2.jpg": "/pkmhospital/static/media/PKM2.2a35c62eec5a05e6c016.jpg",
+    "static/media/logo.png": "/pkmhospital/static/media/logo.fe94b1fe00aa781bd62e.png",
+    "static/media/revicons.eot": "/pkmhospital/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/pkmhospital/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/pkmhospital/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/pkmhospital/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pkmhospital/index.html",
+    "main.ec060a61.css.map": "/pkmhospital/static/css/main.ec060a61.css.map",
+    "main.c3ac1191.js.map": "/pkmhospital/static/js/main.c3ac1191.js.map",
+    "453.8701dc61.chunk.js.map": "/pkmhospital/static/js/453.8701dc61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec060a61.css",
+    "static/js/main.c3ac1191.js"
+  ]
+}
