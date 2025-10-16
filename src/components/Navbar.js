@@ -33,13 +33,16 @@ function Navbar(){
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="/departments">Departments</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/doctors">Doctors</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/appoinment">Appoinment</Link>
+                            <Link className="nav-link" to="/appointment">Appoinment</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/category">Category</Link>
+                            <Link className="nav-link" to="/contact">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

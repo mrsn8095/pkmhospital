@@ -11,11 +11,11 @@ import API from "../api";
 
 
 function Home() {
-  const [doctors, setDoctors] = useState([]);
+  // const [doctors, setDoctors] = useState([]);
   useEffect(() => {
     API.get("/doctors")
-    .then(res => setDoctors(res.data))
-    .catch(err => console.log(err));
+    // .then(res => setDoctors(res.data))
+    // .catch(err => console.log(err));
   },[]);  
 
   return (
@@ -93,9 +93,6 @@ function Home() {
           <ContactUs />
           </div>
 
-     <div className="container my-5 text-center">
- <a href="Admin" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Admin</a>
-     </div>
      
       </>
 

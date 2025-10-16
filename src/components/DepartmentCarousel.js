@@ -8,6 +8,8 @@ import obgynImg from "../img/departments/gyneco.png";
 import entImg from "../img/departments/ent.png";
 import imagingImg from "../img/departments/radiology.png";
 
+import deptdata from "../data/departments";
+
 const Departments = [
   {
     name: "General Medicine",
@@ -60,10 +62,10 @@ function DepartmentCarousel() {
       transitionDuration={500}
       arrows={false}
     >
-      {Departments.map((dept, index) => (
+      {deptdata.map((dept, index) => (
         <div key={index} className="card mx-2 mt-5" style={{ width: "18rem" }}>
           <img
-            src={dept.img}
+            src={dept.image}
             alt={dept.name}
             style={{
               width: "100%",
